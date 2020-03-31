@@ -1,0 +1,6 @@
+{
+  "builds": [{
+    "src": "bin/www",
+    "use": "@now/node-server"
+  }]
+}

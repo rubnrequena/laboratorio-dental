@@ -1,0 +1,39 @@
+{
+  "name": "laboratorio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "nodemon ./bin/www",
+    "mocha": "mocha test"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.0",
+    "express-fileupload": "^1.1.6",
+    "express-jwt": "^5.3.1",
+    "global": "^4.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mail": "^0.2.3",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.11",
+    "morgan": "~1.9.0",
+    "nodemailer": "^6.4.2",
+    "sharp": "^0.23.4",
+    "supertest": "^4.0.2"
+  },
+  "nodemonConfig": {
+    "env": {
+      "NODE_ENV": "development"
+    }
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
