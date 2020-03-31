@@ -6,7 +6,7 @@ const transport = nodemailer.createTransport({
   secure: true,
   auth: {
     user: "no-responder@sistemasrq.com",
-    pass: "srq@s0p0rt3"
+    pass: "mail-psw"
   }
 });
 
